@@ -14,9 +14,7 @@ Be among the first to experience the future of Enterprise Architecture. Sign up 
 - Influence product development with your feedback
 
 <div class="subscribe-form-container">
-    <form id="subscribeForm" class="subscribe-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
-        <!-- Replace YOUR_FORM_ID with your actual Formspree form ID -->
-        <!-- Or integrate with your backend API -->
+    <form id="subscribeForm" class="subscribe-form" action="https://formsubmit.co/matus.vavro@gmail.com" method="POST">
 
         <h2>Business Information</h2>
 
@@ -141,8 +139,12 @@ Be among the first to experience the future of Enterprise Architecture. Sign up 
             </label>
         </div>
 
+        <!-- FormSubmit Configuration -->
         <input type="hidden" name="_subject" value="New Subscription - AI EA Architect">
-        <input type="hidden" name="_next" value="{{ '/subscribe/thank-you/' | absolute_url }}">
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_template" value="table">
+        <input type="text" name="_honey" style="display:none">
+        <input type="hidden" name="_next" value="https://matfejbat.github.io/EAAIarchitect/subscribe/thank-you/">
 
         <button type="submit" class="btn btn-primary">Submit Application</button>
     </form>

@@ -38,7 +38,7 @@ Have questions? Want to schedule a demo? We're here to help!
 
     <div class="contact-form-container">
         <h2>Send Us a Message</h2>
-        <form id="contactForm" class="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+        <form id="contactForm" class="contact-form" action="https://formsubmit.co/matus.vavro@gmail.com" method="POST">
             <div class="form-group">
                 <label for="name">Full Name *</label>
                 <input type="text" id="name" name="name" required>
@@ -78,8 +78,12 @@ Have questions? Want to schedule a demo? We're here to help!
                 <textarea id="message" name="message" rows="6" required placeholder="Tell us how we can help..."></textarea>
             </div>
 
+            <!-- FormSubmit Configuration -->
             <input type="hidden" name="_subject" value="Contact Form - AI EA Architect">
-            <input type="hidden" name="_next" value="{{ '/contact/thank-you/' | absolute_url }}">
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_template" value="table">
+            <input type="text" name="_honey" style="display:none">
+            <input type="hidden" name="_next" value="https://matfejbat.github.io/EAAIarchitect/contact/thank-you/">
 
             <button type="submit" class="btn btn-primary">Send Message</button>
         </form>
