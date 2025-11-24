@@ -1,0 +1,63 @@
+# Site settings
+title: AI EA Architect SaaS
+description: Enterprise Architecture as Code - AI-Powered Compliance and Architecture Solutions
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://yourdomain.com" # Replace with your custom domain
+email: contact@yourdomain.com
+
+# GitHub Pages / Jekyll settings
+theme: minima
+markdown: kramdown
+permalink: /news/:year/:month/:day/:title/
+
+# Collections
+collections:
+  videos:
+    output: true
+    permalink: /videos/:name/
+
+# Pagination for blog
+paginate: 10
+paginate_path: "/news/page:num/"
+
+# Social links
+social:
+  twitter: your_twitter
+  linkedin: your_linkedin
+  github: your_github
+
+# Stripe settings (use environment variables for production)
+stripe:
+  publishable_key: "pk_test_YOUR_KEY" # Replace with your Stripe publishable key
+
+# Navigation
+navigation:
+  - title: Home
+    url: /
+  - title: News
+    url: /news/
+  - title: Subscribe
+    url: /subscribe/
+  - title: EA Architect Service
+    url: /service/
+  - title: Videos
+    url: /videos/
+  - title: FAQ
+    url: /faq/
+  - title: Contact
+    url: /contact/
+
+# Build settings
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-paginate
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/
+  - README.md
