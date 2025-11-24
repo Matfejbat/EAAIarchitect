@@ -1,12 +1,12 @@
 # Site settings
 title: AI EA Architect SaaS
 description: Enterprise Architecture as Code - AI-Powered Compliance and Architecture Solutions
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://yourdomain.com" # Replace with your custom domain
+baseurl: "/EAAIarchitect" # the subpath of your site, e.g. /blog
+url: "https://matfejbat.github.io" # Replace with your custom domain
 email: contact@yourdomain.com
 
 # GitHub Pages / Jekyll settings
-theme: minima
+# theme: minima  # Commented out - using custom layouts
 markdown: kramdown
 permalink: /news/:year/:month/:day/:title/
 
