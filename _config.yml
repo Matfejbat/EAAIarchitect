@@ -1,6 +1,8 @@
 # Site settings
 title: AI EA Architect SaaS
 description: Enterprise Architecture as Code - AI-Powered Compliance and Architecture Solutions
+logo: /assets/img/logo.png
+show_downloads: false
 baseurl: "/EAAIarchitect" # the subpath of your site, e.g. /blog
 url: "https://matfejbat.github.io" # Replace with your custom domain
 email: contact@yourdomain.com

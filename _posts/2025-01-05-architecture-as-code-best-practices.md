@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: "Architecture as Code: 5 Best Practices for Success"
 date: 2025-01-05 09:00:00 +0000
 author: EA Architect Team

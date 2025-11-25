@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: Subscribe - Join the Waitlist
 description: Get early access to AI EA Architect and stay updated with the latest features
 ---

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: "Introducing AI EA Architect: The Future of Enterprise Architecture"
 date: 2025-01-15 10:00:00 +0000
 author: EA Architect Team

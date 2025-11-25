@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: Videos & Demos
 description: Watch AI EA Architect in action - demos, tutorials, and use cases
 ---

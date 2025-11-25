@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: EA Architect as a Service
 description: Choose the perfect plan for your Enterprise Architecture needs
 ---

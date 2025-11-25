@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: Thank You!
 description: Your message has been received
 ---

@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: Contact Us
 description: Get in touch with the AI EA Architect team
 ---

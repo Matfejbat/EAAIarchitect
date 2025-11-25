@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: default
 title: AI EA Architect - Compliance as Architecture as Code
 ---
 

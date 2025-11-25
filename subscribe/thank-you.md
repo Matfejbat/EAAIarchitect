@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: Thank You for Subscribing!
 description: Your application has been received
 ---

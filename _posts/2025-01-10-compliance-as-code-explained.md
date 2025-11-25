@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: "Compliance as Code: A Paradigm Shift in Regulatory Management"
 date: 2025-01-10 14:30:00 +0000
 author: EA Architect Team
