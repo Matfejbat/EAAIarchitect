@@ -1,0 +1,33 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+/* Custom overrides for Architect theme */
+
+/* Change header colors */
+header {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+/* Customize link colors */
+a {
+  color: #667eea;
+}
+
+a:hover {
+  color: #764ba2;
+}
+
+/* Customize button styles */
+.btn-primary {
+  background-color: #667eea;
+  border-color: #667eea;
+}
+
+.btn-primary:hover {
+  background-color: #764ba2;
+  border-color: #764ba2;
+}
+
+/* Add your custom styles below */
