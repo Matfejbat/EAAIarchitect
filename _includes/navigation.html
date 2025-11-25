@@ -1,0 +1,48 @@
+<nav class="site-navigation">
+  <ul>
+    {% for item in site.navigation %}
+    <li><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
+    {% endfor %}
+  </ul>
+</nav>
+
+<style>
+.site-navigation {
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #e1e4e8;
+}
+
+.site-navigation ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.site-navigation li {
+  display: inline-block;
+}
+
+.site-navigation a {
+  text-decoration: none;
+  padding: 0.5rem 0.75rem;
+  color: #0366d6;
+  border-radius: 4px;
+  transition: background-color 0.2s;
+}
+
+.site-navigation a:hover {
+  background-color: #f6f8fa;
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .site-navigation ul {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+}
+</style>
