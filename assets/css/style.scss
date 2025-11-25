@@ -3,31 +3,102 @@
 
 @import "{{ site.theme }}";
 
-/* Custom overrides for Architect theme */
+/* Custom overrides for Minimal theme */
 
-/* Change header colors */
-header {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+/* Improve readability */
+body {
+  font-size: 16px;
+  line-height: 1.7;
 }
 
 /* Customize link colors */
 a {
-  color: #667eea;
+  color: #0366d6;
+  text-decoration: none;
 }
 
 a:hover {
-  color: #764ba2;
+  color: #0056b3;
+  text-decoration: underline;
 }
 
-/* Customize button styles */
-.btn-primary {
-  background-color: #667eea;
-  border-color: #667eea;
+/* Add spacing to sections */
+section {
+  margin-bottom: 2rem;
 }
 
-.btn-primary:hover {
-  background-color: #764ba2;
-  border-color: #764ba2;
+/* Style buttons */
+.btn, .btn-primary {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background-color: #0366d6;
+  color: white;
+  border-radius: 4px;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
 }
 
-/* Add your custom styles below */
+.btn:hover, .btn-primary:hover {
+  background-color: #0056b3;
+  color: white;
+  text-decoration: none;
+}
+
+.btn-secondary {
+  background-color: #6c757d;
+}
+
+.btn-secondary:hover {
+  background-color: #5a6268;
+}
+
+.btn-outline {
+  background-color: transparent;
+  border: 2px solid #0366d6;
+  color: #0366d6;
+}
+
+.btn-outline:hover {
+  background-color: #0366d6;
+  color: white;
+}
+
+/* Forms */
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="url"],
+select,
+textarea {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+/* Responsive pricing grid */
+.pricing-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+.pricing-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1.5rem;
+  text-align: center;
+}
+
+/* Add more custom styles as needed */
