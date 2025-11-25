@@ -6,7 +6,7 @@ url: "https://matfejbat.github.io" # Replace with your custom domain
 email: contact@yourdomain.com
 
 # GitHub Pages / Jekyll settings
-# theme: minima  # Commented out - using custom layouts
+theme: jekyll-theme-architect
 markdown: kramdown
 permalink: /news/:year/:month/:day/:title/
 
